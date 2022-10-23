@@ -1,3 +1,5 @@
+import  { Outlet, NavLink } from "react-router-dom";
+
 function Projects() {
     return (
         <div className="w-full bg-gray-800" id='projects'>
@@ -6,6 +8,7 @@ function Projects() {
                     <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
                         Check out some recent projects        
                     </h1>
+                    <NavLink to ="/projects">See more projects...</NavLink>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -32,7 +35,6 @@ function Projects() {
                         <p className="text-base text-gray-400 font-normal mb-2">...</p>
                         <p className="text-base text-emerald-300 font-normal">...</p>
                     </a>
-
                 </div>
             </section>
         </div>
