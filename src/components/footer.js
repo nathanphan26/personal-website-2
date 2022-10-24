@@ -8,10 +8,12 @@ function handleLinkedinOnclick(e) {
     window.open('https://www.linkedin.com/in/nathanphan26', '_blank');
 }
 
+function scrollDown(e) {}
+
 function Footer() {
     return (
         <footer class="fixed inset-x-0 bottom-0 pt-4 pr-4 pl-4 pb-6">
-            <div class="flex flex-wrap justify-center gap-2">
+            <div class="flex flex-wrap float-right gap-2">
                 {/* Linkedin */}
                 <button class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded socials" onClick={handleLinkedinOnclick}>
                     <svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">

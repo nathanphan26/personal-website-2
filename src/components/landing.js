@@ -16,7 +16,7 @@ function Landing() {
             </div>
             
             </div>
-        
+            <a href="#projects" class="scroll-down mb-16"></a>
         </main>
     )
 }

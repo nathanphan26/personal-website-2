@@ -37,8 +37,8 @@ export default function Navbar() {
             {/* Icon */}
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <h1 class="block w-auto text-2xl sm:hidden"><b>NP</b></h1>
-                  <h1 class="hidden w-auto text-2xl sm:block"><b>Nathan Phan</b></h1>
+                  <a class="block w-auto text-2xl sm:hidden" href='/'><b>NP</b></a>
+                  <a class="hidden w-auto text-2xl sm:block" href='/'><b>Nathan Phan</b></a>
                 {/* <img
                     className="block h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
